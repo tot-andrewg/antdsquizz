@@ -1,0 +1,80 @@
+.logo {
+  /* width: 240px; */
+  text-align: center;
+  background-color: #19A5F2;
+  line-height: 64px;
+}
+
+/* #MainLayout {
+  height: 100vh;
+} */
+
+/* #header {
+  max-height: 4rem;
+} */
+/* .ant-layout-header {
+  padding: 0 1rem 0 0;
+} */
+
+/* .ant-layout-sider {
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ant-layout-sider::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.ant-layout-sider::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.ant-layout-sider::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.workspace-tabs {
+  padding-top: 0.5rem !important;
+  line-height: calc(64px - 1px - 0.5rem) !important;
+}
+
+.workspace-tabs .ant-menu-item {
+  margin-right: 2px !important;
+  margin: 0 !important;
+  border: 1px solid #e8e8e8 !important;
+  border-bottom: 0 !important;
+  border-radius: 4px 4px 0 0 !important;
+}
+
+.workspace-tabs .ant-menu-item .workspace-tabs-label {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 5rem !important;
+} */
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+
+
+.menu__secondary {
+  height: '100vh';
+  transition: all .2s;
+}
+.menu__secondary--visible {
+  width: 420px;
+  min-width: 420px;
+  max-width: 420px;
+}
+.menu__secondary--hidden {
+  width: 0px;
+  min-width: 0px;
+  max-width: 0px;
+  visibility: hidden;
+}
